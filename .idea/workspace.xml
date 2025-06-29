@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8efb8be9-2770-47c9-92f7-147438576532" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Laboratorio_15_Mineria_textos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crear_estructura.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/embeddings/embedding_engine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/evaluation/comparar_embeddings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vector_db/crear_tecsup_custom_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vector_db/crear_tecsup_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vector_db/query_tecsup_custom_embedding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vector_db/query_tecsup_db.py" afterDir="false" />
-    </list>
+    <list default="true" id="8efb8be9-2770-47c9-92f7-147438576532" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751115934066</updated>
-      <workItem from="1751115935150" duration="9120000" />
+      <workItem from="1751115935150" duration="9493000" />
     </task>
     <servers />
   </component>
