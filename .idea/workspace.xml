@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8efb8be9-2770-47c9-92f7-147438576532" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notebooks/consulta_vectorial.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/processed/chroma_tecsup/5e9ba598-bec6-4bc6-8bb9-a66df53c09c7/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/chroma_tecsup/5e9ba598-bec6-4bc6-8bb9-a66df53c09c7/length.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/processed/chroma_tecsup/90537df9-f7b8-4322-bf9c-2f5614d02f97/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/chroma_tecsup/90537df9-f7b8-4322-bf9c-2f5614d02f97/length.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/chroma_tecsup/8dfd37e1-c489-4298-ba02-9adc0b8407a3/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/chroma_tecsup/8dfd37e1-c489-4298-ba02-9adc0b8407a3/length.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/processed/chroma_tecsup/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/chroma_tecsup/chroma.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vector_db/crear_tecsup_custom_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vector_db/crear_tecsup_custom_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vector_db/crear_tecsup_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vector_db/crear_tecsup_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/chroma_tecsup/d7044558-afb2-4f17-82e2-a8d587cbef9e/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/chroma_tecsup/d7044558-afb2-4f17-82e2-a8d587cbef9e/length.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/consulta_vectorial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/comparar_embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/comparar_embeddings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751115934066</updated>
-      <workItem from="1751115935150" duration="19913000" />
+      <workItem from="1751115935150" duration="20950000" />
     </task>
     <servers />
   </component>

@@ -1,42 +1,36 @@
 import logging
 import chromadb
 from chromadb.utils import embedding_functions
-import sys
-import os
-
-# Agregar src al path manualmente
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 from src.embeddings.embedding_engine import get_sentence_transformer
 
 # Configurar logging
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-# Prompt a comparar
+# Prompt de consulta
 prompt = "¿Quién estudia ciencia de datos o le interesa la inteligencia artificial?"
-logging.info(f"Comparación de respuestas para: {prompt}")
 
-# Cliente persistente
+# Conectar cliente persistente
 client = chromadb.PersistentClient(path="data/processed/chroma_tecsup")
 
-# Función para consultar
-def consultar(nombre_coleccion, embedding_func):
-    col = client.get_or_create_collection(name=nombre_coleccion, embedding_function=embedding_func)
-    return col.query(query_texts=[prompt], n_results=3)
-
-# Ejecutar consultas
+# --- Consulta con DefaultEmbeddingFunction ---
 default_func = embedding_functions.DefaultEmbeddingFunction()
-res_default = consultar("Tecsup", default_func)
+collection_default = client.get_or_create_collection(name="Tecsup", embedding_function=default_func)
 
+res_default = collection_default.query(query_texts=[prompt], n_results=3)
+logging.info("Resultados con DefaultEmbeddingFunction:")
+for i, doc in enumerate(res_default["documents"][0]):
+    dist = res_default["distances"][0][i]
+    logging.info(f"[Default] Documento {i+1} (Distancia: {dist:.4f})")
+    logging.info(f"   {doc}")
+
+# --- Consulta con SentenceTransformerEmbeddingFunction ---
 custom_func = get_sentence_transformer()
-res_custom = consultar("Tecsup_Custom", custom_func)
+collection_custom = client.get_or_create_collection(name="Tecsup_Custom", embedding_function=custom_func)
 
-# Mostrar comparaciones
-for i in range(3):
-    logging.info(f"\n📊 Comparación #{i+1}")
-    logging.info(f"[Default] Distancia: {res_default['distances'][0][i]:.4f}")
-    logging.info(res_default['documents'][0][i])
-    logging.info(f"[Custom]  Distancia: {res_custom['distances'][0][i]:.4f}")
-    logging.info(res_custom['documents'][0][i])
+res_custom = collection_custom.query(query_texts=[prompt], n_results=3)
+logging.info("Resultados con SentenceTransformerEmbeddingFunction:")
+for i, doc in enumerate(res_custom["documents"][0]):
+    dist = res_custom["distances"][0][i]
+    logging.info(f"[Custom] Documento {i+1} (Distancia: {dist:.4f})")
+    logging.info(f"   {doc}")
+
