@@ -1,0 +1,82 @@
+[
+  {
+    "id": "alumno_1",
+    "document": "Soy Roldán Valdés Montenegro. Estudio Gestión de Proyectos. Me interesan temas como diseño UX/UI, videojuegos, machine learning, inteligencia artificial."
+  },
+  {
+    "id": "alumno_2",
+    "document": "Soy Óscar José María Sandoval Uría. Estudio Marketing Digital. Me interesan temas como machine learning, marketing."
+  },
+  {
+    "id": "alumno_3",
+    "document": "Soy María Luisa Carretero Andres. Estudio Mecatrónica. Me interesan temas como marketing, análisis de datos."
+  },
+  {
+    "id": "alumno_4",
+    "document": "Soy Blas Ramírez Molins. Estudio Marketing Digital. Me interesan temas como emprendimiento, robótica, inteligencia artificial, machine learning."
+  },
+  {
+    "id": "alumno_5",
+    "document": "Soy Gregorio Colomer Gomez. Estudio Administración de Empresas. Me interesan temas como robótica, emprendimiento, machine learning, finanzas."
+  },
+  {
+    "id": "alumno_6",
+    "document": "Soy Martirio Tatiana Peña Borrego. Estudio Mecatrónica. Me interesan temas como diseño UX/UI, robótica, finanzas."
+  },
+  {
+    "id": "alumno_7",
+    "document": "Soy Maribel Edelmira Valcárcel Cuevas. Estudio Administración de Empresas. Me interesan temas como machine learning, videojuegos, análisis de datos, ciberseguridad."
+  },
+  {
+    "id": "alumno_8",
+    "document": "Soy Belen del Farré. Estudio Mecatrónica. Me interesan temas como diseño UX/UI, blockchain."
+  },
+  {
+    "id": "alumno_9",
+    "document": "Soy Bernabé Heras. Estudio Administración de Empresas. Me interesan temas como cloud computing, ciberseguridad, emprendimiento, blockchain."
+  },
+  {
+    "id": "alumno_10",
+    "document": "Soy Erasmo Martí Machado. Estudio Diseño Gráfico. Me interesan temas como videojuegos, análisis de datos, machine learning."
+  },
+  {
+    "id": "alumno_11",
+    "document": "Soy Esteban Rubén Almazán Neira. Estudio Mecatrónica. Me interesan temas como videojuegos, cloud computing, inteligencia artificial, IoT."
+  },
+  {
+    "id": "alumno_12",
+    "document": "Soy Graciano Campo Iglesias. Estudio Administración de Empresas. Me interesan temas como emprendimiento, marketing, robótica."
+  },
+  {
+    "id": "alumno_13",
+    "document": "Soy Elena Gámez. Estudio Negocios Internacionales. Me interesan temas como inteligencia artificial, diseño UX/UI, IoT, robótica."
+  },
+  {
+    "id": "alumno_14",
+    "document": "Soy José María Carlos Infante Rivas. Estudio Diseño Gráfico. Me interesan temas como ciberseguridad, análisis de datos."
+  },
+  {
+    "id": "alumno_15",
+    "document": "Soy Encarna Leandra Molina Ferrández. Estudio Administración de Empresas. Me interesan temas como ciberseguridad, machine learning."
+  },
+  {
+    "id": "alumno_16",
+    "document": "Soy Cecilio Arnau. Estudio Gestión de Proyectos. Me interesan temas como machine learning, IoT, diseño UX/UI, finanzas."
+  },
+  {
+    "id": "alumno_17",
+    "document": "Soy Hugo Palmer-Espada. Estudio Desarrollo Web. Me interesan temas como inteligencia artificial, robótica."
+  },
+  {
+    "id": "alumno_18",
+    "document": "Soy Pepe Salvador Antón. Estudio Gestión de Proyectos. Me interesan temas como emprendimiento, diseño UX/UI, videojuegos, machine learning."
+  },
+  {
+    "id": "alumno_19",
+    "document": "Soy Gisela Verdugo Cerro. Estudio Administración de Empresas. Me interesan temas como ciberseguridad, cloud computing, inteligencia artificial, emprendimiento."
+  },
+  {
+    "id": "alumno_20",
+    "document": "Soy Dionisio Fernandez Cerdán. Estudio Gestión de Proyectos. Me interesan temas como análisis de datos, ciberseguridad, cloud computing, blockchain."
+  }
+]
